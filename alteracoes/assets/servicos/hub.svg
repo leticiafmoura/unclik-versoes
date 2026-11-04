@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" role="img" aria-labelledby="title"><title id="title">Painel simplificado do HUB Unclik</title><defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#601284" flood-opacity=".08"/></filter><linearGradient id="wash" x2="1" y2="1"><stop stop-color="#fdfbff"/><stop offset="1" stop-color="#e9d6f5"/></linearGradient></defs>
+<g filter="url(#shadow)"><rect x="57" y="21" width="566" height="266" rx="18" fill="#fff" stroke="#d6bce7"/></g>
+<path d="M75 21h78v266H75a18 18 0 0 1-18-18V39a18 18 0 0 1 18-18Z" fill="#601284"/>
+<g fill="#d294ef"><rect x="80" y="47" width="46" height="6" rx="3"/><rect x="80" y="123" width="46" height="5" rx="2.5"/><rect x="80" y="169" width="46" height="5" rx="2.5"/><rect x="80" y="215" width="46" height="5" rx="2.5"/></g>
+<svg x="79" y="78" style="color:#fff"
+  xmlns="http://www.w3.org/2000/svg"
+  width="22"
+  height="22"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg><svg x="79" y="140" style="color:#e7d2f2"
+  xmlns="http://www.w3.org/2000/svg"
+  width="22"
+  height="22"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+</svg><svg x="79" y="187" style="color:#e7d2f2"
+  xmlns="http://www.w3.org/2000/svg"
+  width="22"
+  height="22"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 10h14l-4 -4" />
+  <path d="M17 14h-14l4 4" />
+</svg>
+<text x="177" y="57" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#300149">HUB Unclik</text><circle cx="591" cy="50" r="13" fill="#f4edf8"/><svg x="583" y="42" style="color:#8312bf"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+<path d="M177 77h422" stroke="#ede3f3"/>
+<g fill="#f4edf8"><rect x="177" y="97" width="130" height="59" rx="10"/><rect x="321" y="97" width="130" height="59" rx="10"/><rect x="465" y="97" width="134" height="59" rx="10"/></g>
+<path d="M192 114h46M336 114h46M480 114h46" stroke="#c9a9df" stroke-width="5" stroke-linecap="round"/><path d="M192 137h70M336 137h70M480 137h70" stroke="#8312bf" stroke-width="7" stroke-linecap="round"/>
+<rect x="177" y="174" width="274" height="92" rx="10" fill="#fff" stroke="#eadff0"/><path d="M192 247h244M192 220h244M192 193h244" stroke="#f4edf8"/><path d="M192 244c25 0 33-34 65-29s40 12 69-1 44 4 66-8 27-8 44-17" fill="none" stroke="#a95bd1" stroke-width="3" stroke-linecap="round"/>
+<rect x="465" y="174" width="134" height="92" rx="10" fill="#fff" stroke="#eadff0"/><svg x="479" y="190" style="color:#8312bf"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+</svg><path d="M511 201h68M481 230h98M481 246h72" stroke="#e4d4ed" stroke-width="5" stroke-linecap="round"/></svg>

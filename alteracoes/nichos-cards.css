@@ -1,0 +1,27 @@
+/* Seis cards da V6 em grid: três colunas e duas linhas no desktop. */
+:root body.home-alteracoes #nichos-cards #audience-cards-title{max-width:600px;text-wrap:balance}
+:root body.home-alteracoes #nichos-cards .audience-viewport{overflow:visible;margin:42px auto 0;width:min(1280px,calc(100% - 64px))}
+:root body.home-alteracoes #nichos-cards .audience-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;overflow:visible;scroll-snap-type:none;padding:0;margin:0;list-style:none;width:100%;cursor:auto}
+:root body.home-alteracoes #nichos-cards .audience-card{width:100%;min-width:0;opacity:1;transform:none;scroll-snap-align:none}
+:root body.home-alteracoes #nichos-cards .audience-card>a{display:flex;flex-direction:column;height:100%;user-select:auto}
+:root body.home-alteracoes #nichos-cards .audience-art{height:56px;min-height:0;margin:27px 27px 0;border-radius:0;background:none;overflow:visible}
+:root body.home-alteracoes #nichos-cards .audience-art img{width:56px;height:56px;object-fit:contain;padding:13px;border:1px solid #e5d5ef;border-radius:14px;background:#f2e7f8}
+:root body.home-alteracoes #nichos-cards .audience-index{left:auto;right:0;top:5px;color:#9b83a7}
+:root body.home-alteracoes #nichos-cards .audience-copy{padding:22px 27px 27px}
+:root body.home-alteracoes #nichos-cards .audience-copy p{max-width:520px}
+:root body.home-alteracoes #nichos-cards .audience-footer{margin-top:24px}
+@media(min-width:601px) and (max-width:1000px){
+  :root body.home-alteracoes #nichos-cards .audience-track{gap:16px}
+  :root body.home-alteracoes #nichos-cards .audience-art{height:48px;margin:24px 18px 0}
+  :root body.home-alteracoes #nichos-cards .audience-art img{width:48px;height:48px;padding:11px;border-radius:12px}
+  :root body.home-alteracoes #nichos-cards .audience-copy{padding:20px 18px 24px}
+  :root body.home-alteracoes #nichos-cards .audience-copy h3{font-size:22px}
+}
+@media(max-width:600px){
+  :root body.home-alteracoes #nichos-cards .audience-viewport{width:calc(100% - 40px);margin-top:28px}
+  :root body.home-alteracoes #nichos-cards .audience-track{grid-template-columns:minmax(0,1fr);gap:20px}
+  :root body.home-alteracoes #nichos-cards .audience-art{height:52px;margin:23px 23px 0}
+  :root body.home-alteracoes #nichos-cards .audience-art img{width:52px;height:52px;padding:12px}
+  :root body.home-alteracoes #nichos-cards .audience-copy{padding:23px}
+  :root body.home-alteracoes #nichos-cards .audience-cta{margin-top:0}
+}

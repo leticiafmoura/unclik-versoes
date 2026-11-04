@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280" fill="none"><title>Campanhas e mídia</title><defs>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a141d0"/><stop offset="1" stop-color="#6c0ba0"/></linearGradient>
+<linearGradient id="lilac" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#f9f1fd"/><stop offset="1" stop-color="#d294ef"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f2e7fa"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#57266d"/><stop offset="1" stop-color="#260e35"/></linearGradient>
+<filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="13" stdDeviation="9" flood-color="#481463" flood-opacity=".13"/></filter>
+<filter id="smallshadow" x="-55%" y="-55%" width="210%" height="220%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#481463" flood-opacity=".16"/></filter>
+</defs>
+<ellipse cx="179" cy="239" rx="103" ry="13" fill="#8312bf" opacity=".055"/>
+<path d="M64 171a110 110 0 1 1 220-2" stroke="#ecdaf5" stroke-width="22" fill="none"/>
+<g transform="rotate(-12 169 146)" filter="url(#shadow)">
+<ellipse cx="169" cy="153" rx="79" ry="83" fill="#601284"/>
+<circle cx="169" cy="144" r="79" fill="url(#body)"/>
+<circle cx="169" cy="144" r="58" fill="url(#paper)"/>
+<circle cx="169" cy="144" r="38" fill="url(#lilac)"/>
+<circle cx="169" cy="144" r="17" fill="#8312bf"/>
+<path d="M112 117a61 61 0 0 1 38-30" stroke="#bd76dd" stroke-width="3" stroke-linecap="round" fill="none"/>
+</g>
+<g transform="rotate(7 231 181)" filter="url(#smallshadow)">
+<path d="m195 129 12 92 23-24 19 32 18-10-20-32 31-6Z" fill="#260e35" stroke="#260e35" stroke-width="6" stroke-linejoin="round"/>
+<path d="m194 122 12 92 23-24 19 32 18-10-20-32 31-6Z" fill="url(#paper)" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+</g>
+<g transform="rotate(10 274 62)" filter="url(#smallshadow)">
+<rect x="248" y="35" width="58" height="52" rx="17" fill="url(#lilac)"/>
+<path d="m261 56 23-11v28l-23-10Zm0 0h-7v7h7m9 4 3 12" fill="#8312bf"/>
+<path d="m292 53 5-3m-4 12h6m-7 8 5 3" stroke="#8312bf" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<circle cx="65" cy="207" r="8" fill="#d294ef"/>
+<path d="M85 53h12m-6-6v12" stroke="#8312bf" stroke-width="3" stroke-linecap="round"/>
+</svg>

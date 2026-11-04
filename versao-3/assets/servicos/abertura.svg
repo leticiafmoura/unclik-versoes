@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-labelledby="title"><title id="title">Documento de abertura de empresa</title><defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#601284" flood-opacity=".08"/></filter><linearGradient id="wash" x2="1" y2="1"><stop stop-color="#fdfbff"/><stop offset="1" stop-color="#e9d6f5"/></linearGradient></defs>
+<circle cx="178" cy="142" r="116" fill="#e8d8f4"/><circle cx="178" cy="142" r="92" fill="none" stroke="#c9a9df" stroke-dasharray="3 7"/>
+<g transform="translate(83 26) rotate(-5 97 111)" filter="url(#shadow)"><rect width="194" height="226" rx="16" fill="#fff" stroke="#d9c0e8"/>
+<rect x="24" y="24" width="46" height="46" rx="12" fill="#f4edf8"/><svg x="34" y="34" style="color:#8312bf"
+  xmlns="http://www.w3.org/2000/svg"
+  width="26"
+  height="26"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 21l18 0" />
+  <path d="M3 10l18 0" />
+  <path d="M5 6l7 -3l7 3" />
+  <path d="M4 10l0 11" />
+  <path d="M20 10l0 11" />
+  <path d="M8 14l0 3" />
+  <path d="M12 14l0 3" />
+  <path d="M16 14l0 3" />
+</svg><text x="24" y="108" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#601284">CNPJ</text>
+<path d="M24 130h146M24 150h104M24 170h124" stroke="#e4d4ed" stroke-width="7" stroke-linecap="round"/><rect x="24" y="192" width="66" height="8" rx="4" fill="#b88ec4"/></g>
+<circle cx="276" cy="207" r="32" fill="#8312bf" stroke="#f4edf8" stroke-width="6"/><svg x="264" y="195" style="color:#fff"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M17 7l-10 10" />
+  <path d="M8 7l9 0l0 9" />
+</svg></svg>

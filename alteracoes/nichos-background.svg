@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" preserveAspectRatio="none" fill="none">
+  <defs>
+    <linearGradient id="niche-background-gradient" gradientUnits="userSpaceOnUse" x1="450" y1="-160" x2="450" y2="600">
+      <stop offset="0" stop-color="white" stop-opacity=".30"/>
+      <stop offset=".25" stop-color="white" stop-opacity=".30"/>
+      <stop offset=".55" stop-color="white" stop-opacity=".34"/>
+      <stop offset="1" stop-color="white" stop-opacity=".38"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#niche-background-gradient)" stroke-width="1">
+    <circle cx="450" cy="340" r="340" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="410" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="480" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="550" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="620" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="690" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="760" vector-effect="non-scaling-stroke"/>
+    <circle cx="450" cy="340" r="830" vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 148" role="img" aria-labelledby="title desc">
+  <title id="title">Contador parceiro Conta Azul — Platina</title>
+  <desc id="desc">Selo horizontal em tons de roxo, com o texto centralizado entre dois ramos de louro.</desc>
+  <defs>
+    <g id="laurel" fill="#9260af">
+      <path d="M57 132C20 112 16 63 42 19" fill="none" stroke="#9260af" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M41 23C35 13 43 5 54 4C53 15 48 21 41 23Z"/>
+      <path d="M34 39C22 35 20 23 25 15C34 21 37 29 34 39Z"/>
+      <path d="M33 40C35 28 44 24 53 25C50 36 43 41 33 40Z"/>
+      <path d="M27 58C15 54 12 43 16 33C25 39 30 47 27 58Z"/>
+      <path d="M27 59C29 47 39 42 49 43C44 55 36 60 27 59Z"/>
+      <path d="M26 79C12 75 8 65 11 54C22 59 27 67 26 79Z"/>
+      <path d="M27 80C26 68 34 60 44 58C45 70 38 78 27 80Z"/>
+      <path d="M31 99C17 100 9 92 8 81C20 81 28 86 31 99Z"/>
+      <path d="M32 99C26 88 30 77 38 71C44 82 42 92 32 99Z"/>
+      <path d="M42 117C28 123 17 117 13 107C25 103 35 105 42 117Z"/>
+      <path d="M43 117C32 107 33 96 39 86C48 95 51 106 43 117Z"/>
+    </g>
+  </defs>
+  <use href="#laurel"/>
+  <use href="#laurel" transform="translate(320 0) scale(-1 1)"/>
+  <g fill="#601284" text-anchor="middle" font-family="Arial,sans-serif">
+    <text x="160" y="46" font-size="22" textLength="188" lengthAdjust="spacingAndGlyphs">Contador parceiro</text>
+    <text x="160" y="81" font-size="21.964" font-weight="700">Conta Azul</text>
+  </g>
+  <rect x="95" y="95" width="130" height="32" rx="16" fill="#d294ef"/>
+  <text x="160" y="117" fill="#601284" text-anchor="middle" font-family="Arial,sans-serif" font-size="17.455" font-weight="700">PLATINA</text>
+</svg>

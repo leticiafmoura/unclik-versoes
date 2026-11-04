@@ -1,0 +1,46 @@
+/* Ritmo de fundos e transições orgânicas da versão Alterações. */
+:root body.home-alteracoes .section-band{position:relative;background:var(--section-bg,#fff);margin:0}
+:root body.home-alteracoes .section-band>.alteracoes-v6{background:transparent}
+:root body.home-alteracoes .section-band[data-section="inicio"]{--section-bg:#faf7fd;z-index:2}
+:root body.home-alteracoes .section-band[data-section="numeros"]{--section-bg:#fff;z-index:1}
+:root body.home-alteracoes .section-band[data-section="segmentos"]{--section-bg:#eee2f7}
+:root body.home-alteracoes .section-band[data-section="servicos"]{--section-bg:#281039}
+:root body.home-alteracoes .section-band[data-section="nichos-cards"]{--section-bg:#f2eaf8}
+:root body.home-alteracoes .section-band[data-section="atendimento"]{--section-bg:#fff}
+:root body.home-alteracoes .section-band[data-section="hub"]{--section-bg:#e7d8f3}
+:root body.home-alteracoes .section-band[data-section="depoimentos"]{--section-bg:#fff}
+:root body.home-alteracoes .section-band[data-section="outras-solucoes"]{--section-bg:#eee3f6}
+:root body.home-alteracoes .section-band[data-section="conteudos"]{--section-bg:#fff}
+:root body.home-alteracoes .section-band[data-section="duvidas"]{--section-bg:#f2ebf8}
+:root body.home-alteracoes .section-band[data-section="contato"]{--section-bg:#301442}
+:root body.home-alteracoes .section-band :is(#inicio,#numeros,#segmentos,#servicos,#nichos-cards,#atendimento,#hub,#depoimentos,#outras-solucoes,#conteudos,#duvidas,#contato){background:transparent;border-radius:0;border-top:0;border-bottom:0;margin-block:0}
+:root body.home-alteracoes .section-band[data-section]::before{content:none}
+:root body.home-alteracoes .section-band:is([data-section="segmentos"],[data-section="servicos"],[data-section="nichos-cards"],[data-section="hub"],[data-section="outras-solucoes"],[data-section="contato"])::before{content:"";position:absolute;left:0;right:0;top:calc(-1 * var(--wave-height) + 1px);height:var(--wave-height);background:var(--section-bg);mask:url('section-wave.svg') center/100% 100% no-repeat;pointer-events:none;z-index:1}
+:root body.home-alteracoes .section-band{--wave-height:clamp(32px,4.5vw,72px)}
+:root body.home-alteracoes .section-band[data-section="segmentos"] #segmentos{padding-top:90px;padding-bottom:112px}
+:root body.home-alteracoes .section-band[data-section="servicos"] #servicos{padding-block:104px 128px}
+:root body.home-alteracoes .section-band[data-section="nichos-cards"] #nichos-cards{padding-top:100px;padding-bottom:100px}
+:root body.home-alteracoes #nichos-cards .audience-card{background:#fff;border-color:#e3d2ed;box-shadow:0 5px 20px #47205d06}
+:root body.home-alteracoes .section-band[data-section="hub"] #hub{padding-top:100px;padding-bottom:112px}
+:root body.home-alteracoes .section-band[data-section="outras-solucoes"] #outras-solucoes{padding-block:96px 110px}
+:root body.home-alteracoes #outras-solucoes .v3-more-grid>article{background:#fff;border-color:#dcc9e8;box-shadow:0 6px 22px #47205d08}
+:root body.home-alteracoes .section-band[data-section="contato"] #contato{padding-block:96px 112px}
+:root body.home-alteracoes #contato .v3-contact-copy h2{color:#fff}
+:root body.home-alteracoes #contato .v3-contact-copy h2 em{color:#d9b0f1}
+:root body.home-alteracoes #contato .v3-contact-copy p{color:#e5d7ee}
+:root body.home-alteracoes #contato .v3-lead-form{background:#fff;box-shadow:0 16px 52px #17062024;border-color:#fff}
+:root body.home-alteracoes .site-footer{position:relative;z-index:1;background:#fff;border-radius:48px 48px 0 0;margin-top:-32px}
+/* A abertura mantém o retrato dentro dos limites da própria seção. */
+@media(min-width:901px){
+  :root body.home-alteracoes .section-band[data-section="numeros"] #numeros{padding-top:76px;padding-bottom:88px}
+}
+@media(max-width:760px){
+  :root body.home-alteracoes .section-band{--wave-height:32px}
+  :root body.home-alteracoes .section-band[data-section="segmentos"] #segmentos{padding-top:64px;padding-bottom:70px}
+  :root body.home-alteracoes .section-band[data-section="servicos"] #servicos{padding-block:70px 90px}
+  :root body.home-alteracoes .section-band[data-section="nichos-cards"] #nichos-cards{padding-block:66px 70px}
+  :root body.home-alteracoes .section-band[data-section="hub"] #hub{padding-block:66px 76px}
+  :root body.home-alteracoes .section-band[data-section="outras-solucoes"] #outras-solucoes{padding-block:66px 76px}
+  :root body.home-alteracoes .section-band[data-section="contato"] #contato{padding-block:66px 86px}
+  :root body.home-alteracoes .site-footer{border-radius:28px 28px 0 0;margin-top:-22px}
+}

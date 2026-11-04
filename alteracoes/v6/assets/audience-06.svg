@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280" fill="none"><title>Trabalho e serviços profissionais</title><defs>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a141d0"/><stop offset="1" stop-color="#6c0ba0"/></linearGradient>
+<linearGradient id="lilac" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#f9f1fd"/><stop offset="1" stop-color="#d294ef"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f2e7fa"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#57266d"/><stop offset="1" stop-color="#260e35"/></linearGradient>
+<filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="13" stdDeviation="9" flood-color="#481463" flood-opacity=".13"/></filter>
+<filter id="smallshadow" x="-55%" y="-55%" width="210%" height="220%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#481463" flood-opacity=".16"/></filter>
+</defs>
+<ellipse cx="181" cy="240" rx="109" ry="12" fill="#8312bf" opacity=".055"/>
+<path d="M78 199v-71a86 86 0 0 1 172 0v71" fill="#ecdaf5"/>
+<g transform="rotate(-9 160 161)" filter="url(#shadow)">
+<path d="M73 116q0-13 13-13h49l18 19h89q13 0 13 13v81q0 13-13 13H86q-13 0-13-13Z" fill="#601284"/>
+<rect x="93" y="98" width="137" height="107" rx="12" fill="#d294ef" transform="rotate(10 161 151)"/>
+<rect x="94" y="89" width="137" height="107" rx="12" fill="url(#paper)"/>
+<circle cx="116" cy="112" r="7" fill="#d294ef"/>
+<path d="M134 111h65m-87 22h95m-95 16h69" stroke="#dbc4e7" stroke-width="5" stroke-linecap="round"/>
+<path d="M73 147q0-13 13-13h44q8 0 13 6l10 12h89q13 0 13 13v51q0 13-13 13H86q-13 0-13-13Z" fill="url(#body)"/>
+<path d="M89 153h40l12 14h94" stroke="#b56bd7" stroke-width="2" stroke-linecap="round" fill="none"/>
+<rect x="94" y="188" width="36" height="9" rx="4.5" fill="#d294ef"/>
+</g>
+<g transform="rotate(12 264 99)" filter="url(#smallshadow)">
+<path d="m255 55 4-10h17l4 10 10 5 10-2 9 15-7 9v12l7 9-9 15-11-2-9 5-4 10h-17l-4-10-10-5-10 2-9-15 7-9V82l-7-9 9-15 10 2Z" fill="url(#paper)"/>
+<circle cx="267" cy="88" r="24" fill="#d294ef"/>
+<circle cx="267" cy="88" r="13" fill="url(#dark)"/>
+</g>
+<g transform="rotate(-10 85 52)" filter="url(#smallshadow)">
+<rect x="61" y="31" width="50" height="45" rx="14" fill="url(#lilac)"/>
+<path d="M76 44h20m-20 10h20m-20 10h12" stroke="#8312bf" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path d="M282 196h12m-6-6v12" stroke="#8312bf" stroke-width="3" stroke-linecap="round"/>
+</svg>

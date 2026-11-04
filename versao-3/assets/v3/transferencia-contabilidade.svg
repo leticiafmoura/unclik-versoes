@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Transferência de documentos da contabilidade atual para a Unclik</title>
+  <defs><filter id="shadow" x="-30%" y="-25%" width="170%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#234f73" flood-opacity=".08"/></filter></defs>
+  <circle cx="180" cy="141" r="113" fill="#deebf5"/>
+  <circle cx="180" cy="141" r="91" stroke="#b3cde1" stroke-dasharray="3 7"/>
+  <ellipse cx="182" cy="246" rx="145" ry="13" fill="#d2e2ef"/>
+  <g transform="rotate(-5 92 145)" filter="url(#shadow)">
+    <rect x="28" y="62" width="126" height="166" rx="16" fill="#f8fbfe" stroke="#b3cde1" stroke-width="1.5"/>
+    <rect x="46" y="79" width="35" height="29" rx="8" fill="#e5eff7"/>
+    <path d="M56 88h14M56 95h10M56 101h14" stroke="#6c9bbd" stroke-width="2" stroke-linecap="round"/>
+    <text x="47" y="135" fill="#527c9d" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="600">Contador</text>
+    <text x="47" y="156" fill="#527c9d" font-family="Poppins,Arial,sans-serif" font-size="17" font-weight="600">atual</text>
+    <path d="M48 179h82M48 193h66M48 207h44" stroke="#c4d9e9" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="209" y="34" width="126" height="194" rx="16" fill="white" stroke="#b3cde1" stroke-width="1.5"/>
+    <rect x="228" y="53" width="36" height="30" rx="8" fill="#e5eff7"/>
+    <path d="M237 63h16M237 70h11M237 77h16" stroke="#2f6b9a" stroke-width="2" stroke-linecap="round"/>
+    <text x="228" y="114" fill="#2f6b9a" font-family="Poppins,Arial,sans-serif" font-size="22" font-weight="600">Unclik</text>
+    <path d="M230 137h85M230 152h66M230 168h76M230 184h49" stroke="#c4d9e9" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <circle cx="181" cy="145" r="31" fill="#edf4fa" stroke="#b3cde1" stroke-width="1.5"/>
+  <path d="M164 145h34m-12-12 12 12-12 12" stroke="#2f6b9a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="316" cy="220" r="23" fill="#2f6b9a"/>
+  <path d="m305 220 7 7 15-16" stroke="#edf4fa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

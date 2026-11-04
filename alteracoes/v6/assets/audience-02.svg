@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280" fill="none"><title>Conhecimento digital</title><defs>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a141d0"/><stop offset="1" stop-color="#6c0ba0"/></linearGradient>
+<linearGradient id="lilac" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#f9f1fd"/><stop offset="1" stop-color="#d294ef"/></linearGradient>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f2e7fa"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#57266d"/><stop offset="1" stop-color="#260e35"/></linearGradient>
+<filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="13" stdDeviation="9" flood-color="#481463" flood-opacity=".13"/></filter>
+<filter id="smallshadow" x="-55%" y="-55%" width="210%" height="220%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#481463" flood-opacity=".16"/></filter>
+</defs>
+<ellipse cx="186" cy="240" rx="108" ry="14" fill="#8312bf" opacity=".055"/>
+<circle cx="180" cy="133" r="96" fill="#ecdaf5"/>
+<circle cx="180" cy="133" r="70" fill="none" stroke="#fff" stroke-width="1.5" opacity=".6"/>
+<g transform="rotate(-10 166 167)" filter="url(#shadow)">
+<path d="M76 107q43-12 90 13 47-25 90-13v110q-47-11-90 10-43-21-90-10Z" fill="#601284"/>
+<path d="M76 99q43-12 90 13 47-25 90-13v110q-47-11-90 10-43-21-90-10Z" fill="url(#paper)"/>
+<path d="M166 112v107" stroke="#d294ef" stroke-width="3"/>
+<path d="M92 121q28-3 54 9m-54 10q28-3 54 9m-54 10q28-3 54 9m37-37q27-12 56-9m-56 28q27-12 56-9m-56 28q27-12 56-9" fill="none" stroke="#d4b9e1" stroke-width="4" stroke-linecap="round"/>
+<path d="M191 103v48l13-9 13 3V96" fill="#8312bf"/>
+<path d="M82 214q43-8 84 11 41-19 84-11" stroke="#b88ec4" stroke-width="2" fill="none"/>
+</g>
+<g transform="rotate(9 237 78)" filter="url(#smallshadow)">
+<rect x="195" y="39" width="84" height="76" rx="23" fill="url(#body)"/>
+<path d="m226 60 27 17-27 17Z" fill="#fff" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<g transform="rotate(-8 85 60)" filter="url(#smallshadow)">
+<path d="M73 68c-17-15-7-37 12-37s29 22 12 37l-5 8H78Z" fill="url(#lilac)"/>
+<path d="M80 84h12m-10 7h8" stroke="#8312bf" stroke-width="5" stroke-linecap="round"/>
+<path d="m81 48 7 8-7 12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="291" cy="173" r="6" fill="#8312bf"/>
+<path d="M54 182h12m-6-6v12" stroke="#d294ef" stroke-width="3" stroke-linecap="round"/>
+</svg>

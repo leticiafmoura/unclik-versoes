@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" role="img" aria-labelledby="title"><title id="title">Documentos das áreas contábil, fiscal e pessoal organizados</title><defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#234f73" flood-opacity=".08"/></filter><linearGradient id="wash" x2="1" y2="1"><stop stop-color="#fafdff"/><stop offset="1" stop-color="#d4e5f2"/></linearGradient></defs>
+<ellipse cx="350" cy="246" rx="245" ry="24" fill="#d8e7f2"/>
+<path d="M160 178h360" stroke="#b3cde1" stroke-width="2" stroke-dasharray="4 7"/>
+<g transform="translate(87 52) rotate(-9 85 90)" filter="url(#shadow)"><rect width="172" height="182" rx="16" fill="#fff" stroke="#c6dbe9"/><svg x="20" y="22" style="color:#2f6b9a"
+  xmlns="http://www.w3.org/2000/svg"
+  width="28"
+  height="28"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+</svg><rect x="20" y="69" width="90" height="7" rx="3.5" fill="#8cacc4"/><path d="M20 100h130M20 119h104M20 138h118" stroke="#e0ebf4" stroke-width="6" stroke-linecap="round"/></g>
+<g transform="translate(428 52) rotate(9 85 90)" filter="url(#shadow)"><rect width="172" height="182" rx="16" fill="#fff" stroke="#c6dbe9"/><svg x="20" y="22" style="color:#2f6b9a"
+  xmlns="http://www.w3.org/2000/svg"
+  width="28"
+  height="28"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg><rect x="20" y="69" width="90" height="7" rx="3.5" fill="#8cacc4"/><path d="M20 100h130M20 119h104M20 138h118" stroke="#e0ebf4" stroke-width="6" stroke-linecap="round"/></g>
+<g filter="url(#shadow)"><rect x="239" y="16" width="208" height="242" rx="18" fill="#fff" stroke="#bed4e5"/><rect x="259" y="36" width="42" height="42" rx="12" fill="#edf4fa"/><svg x="268" y="45" style="color:#2f6b9a"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 21l18 0" />
+  <path d="M3 10l18 0" />
+  <path d="M5 6l7 -3l7 3" />
+  <path d="M4 10l0 11" />
+  <path d="M20 10l0 11" />
+  <path d="M8 14l0 3" />
+  <path d="M12 14l0 3" />
+  <path d="M16 14l0 3" />
+</svg><path d="M316 47h85M316 63h59" stroke="#c4d9e9" stroke-width="6" stroke-linecap="round"/>
+<path d="M260 101h166" stroke="#e4eef5"/>
+<g font-family="Arial,sans-serif" font-size="15" fill="#234f73"><text x="278" y="135">Contábil</text><text x="278" y="177">Fiscal</text><text x="278" y="219">Pessoal</text></g>
+<g fill="#7fa9c8"><circle cx="264" cy="130" r="4"/><circle cx="264" cy="172" r="4"/><circle cx="264" cy="214" r="4"/></g><path d="M354 130h55M354 172h55M354 214h55" stroke="#d8e7f1" stroke-width="6" stroke-linecap="round"/></g></svg>

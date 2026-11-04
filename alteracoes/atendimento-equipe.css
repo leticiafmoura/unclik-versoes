@@ -1,0 +1,29 @@
+/* Atendimento com apresentação da equipe e benefícios em cards independentes. */
+:root body.home-alteracoes #atendimento .v3-split-heading{grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:clamp(32px,4.5vw,72px);align-items:center;margin-bottom:48px}
+:root body.home-alteracoes #atendimento .care-team-copy{min-width:0}
+:root body.home-alteracoes #atendimento #care-title{font-size:clamp(30px,2.6vw,40px);line-height:1.23;max-width:590px;margin-bottom:24px}
+:root body.home-alteracoes #atendimento .v3-care-intro p{font-size:15px;line-height:1.85;margin:0 0 16px;max-width:580px}
+:root body.home-alteracoes #atendimento .v3-care-intro p:last-child{margin-bottom:0}
+:root body.home-alteracoes #atendimento .care-team-photo{position:relative;isolation:isolate;min-width:0;aspect-ratio:6/5;margin:0;border:0;border-radius:0;overflow:visible;background:transparent;box-shadow:none}
+:root body.home-alteracoes #atendimento .care-team-brand{position:absolute;left:13%;top:16%;width:78%;height:84%;background:linear-gradient(145deg,#a44bdc,#8312bf 58%,#601284);mask:url('assets/icone-unclik-branco.png') center/contain no-repeat;pointer-events:none;z-index:0}
+:root body.home-alteracoes #atendimento .care-team-cutout{position:absolute;inset:0;mask:url('atendimento-mask.svg') center/100% 100% no-repeat;z-index:1}
+:root body.home-alteracoes #atendimento .care-team-photo img{position:absolute;left:-5%;bottom:0;display:block;width:120%;max-width:none;height:auto;aspect-ratio:auto;object-fit:contain}
+:root body.home-alteracoes #atendimento .v3-care-grid{gap:20px;padding-top:0;border-top:0}
+:root body.home-alteracoes #atendimento .v3-care-item{min-width:0;padding:28px;border:1px solid #e8dced;border-radius:24px;background:#faf7fd}
+:root body.home-alteracoes #atendimento .v3-care-item+.v3-care-item{padding:28px;border:1px solid #e8dced}
+:root body.home-alteracoes #atendimento .v3-care-item h3{font-size:20px;line-height:1.4;min-height:56px;margin-bottom:14px}
+:root body.home-alteracoes #atendimento .v3-care-item p{font-size:14px;line-height:1.85}
+:root body.home-alteracoes #atendimento .v3-section-cta{margin-top:30px}
+@media(min-width:761px) and (max-width:1100px){
+ :root body.home-alteracoes #atendimento .v3-split-heading{gap:30px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ :root body.home-alteracoes #atendimento .v3-care-item,:root body.home-alteracoes #atendimento .v3-care-item+.v3-care-item{padding:22px}
+ :root body.home-alteracoes #atendimento .v3-care-item h3{font-size:18px}
+}
+@media(max-width:760px){
+ :root body.home-alteracoes #atendimento .v3-split-heading{grid-template-columns:minmax(0,1fr);gap:28px;margin-bottom:30px}
+ :root body.home-alteracoes #atendimento #care-title{font-size:30px;margin-bottom:20px}
+ :root body.home-alteracoes #atendimento .v3-care-intro p{font-size:14px}
+ :root body.home-alteracoes #atendimento .v3-care-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+ :root body.home-alteracoes #atendimento .v3-care-item,:root body.home-alteracoes #atendimento .v3-care-item+.v3-care-item{padding:24px;border-radius:20px}
+ :root body.home-alteracoes #atendimento .v3-care-item h3{font-size:21px;min-height:0}
+}

@@ -1,0 +1,4 @@
+/* Ícones compactos, no mesmo sistema visual dos cards de nichos. */
+:root body.home-alteracoes :is(#atendimento,#outras-solucoes) .v3-service-art{display:flex;align-items:center;justify-content:flex-start;width:56px;height:56px;min-height:0;margin:0 0 24px;padding:0;background:none}
+:root body.home-alteracoes :is(#atendimento,#outras-solucoes) .v3-service-art img{display:block;box-sizing:border-box;width:56px;height:56px;max-width:none;padding:13px;object-fit:contain;border:1px solid #e5d5ef;border-radius:14px;background:#f2e7f8}
+:root body.home-alteracoes #outras-solucoes .v3-service-art img{background:#faf7fd;border-color:#ddc9ea}

@@ -1,0 +1,5 @@
+/* Verde esmeralda apenas nas ações primárias; secundárias mantêm o roxo original. */
+:root body.home-alteracoes{--action-green:#147d52;--action-green-hover:#0b6541;--action-focus:#65c99b}
+:root body.home-revision.home-v3.home-alteracoes .button:is(.button-primary,.primary){background:var(--action-green);border-color:var(--action-green);color:#fff}
+:root body.home-revision.home-v3.home-alteracoes .button:is(.button-primary,.primary):hover:not(:disabled){background:var(--action-green-hover);border-color:var(--action-green-hover);color:#fff}
+:root body.home-revision.home-v3.home-alteracoes .button:is(.button-primary,.primary):focus-visible{outline:3px solid var(--action-focus);outline-offset:4px}
