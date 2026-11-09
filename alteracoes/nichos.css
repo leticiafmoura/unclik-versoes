@@ -4,10 +4,10 @@
 :root body.home-alteracoes #segmentos.niche-map-section{padding-bottom:64px;background:radial-gradient(ellipse at 50% 62%,#eee5fa 0%,#f8f4fc 44%,#fcfafd 80%);border-top:1px solid #f0e7f6}
 :root body.home-alteracoes #segmentos .audience-heading{position:relative;z-index:2;display:block;text-align:center}
 :root body.home-alteracoes #segmentos .audience-heading>div{width:100%;margin-inline:auto}
-:root body.home-alteracoes #segmentos .audience-heading h2{margin-inline:auto;text-align:center}
+:root body.home-alteracoes #segmentos .audience-heading h2{width:100%;max-width:none;margin-inline:auto;text-align:center;font-size:clamp(12px,3.8vw,46px);letter-spacing:-.035em;white-space:nowrap;text-wrap:nowrap}
 :root body.home-alteracoes #segmentos .audience-heading .eyebrow{display:block;text-align:center}
-:root body.home-alteracoes #segmentos .niche-map-container{position:relative;z-index:1;margin-top:44px}
-:root body.home-alteracoes #segmentos .niche-map{position:relative;width:100%;max-width:1040px;aspect-ratio:900/680;margin:0 auto;isolation:isolate}
+:root body.home-alteracoes #segmentos .niche-map-container{position:relative;z-index:1;margin-top:28px}
+:root body.home-alteracoes #segmentos .niche-map{position:relative;width:100%;max-width:920px;aspect-ratio:900/680;margin:0 auto;isolation:isolate}
 :root body.home-alteracoes #segmentos .niche-map::before{content:"";position:absolute;inset:27% 29%;border-radius:50%;background:radial-gradient(circle,#a46cd520,transparent 72%);pointer-events:none}
 :root body.home-alteracoes #segmentos .niche-map-orbits{position:absolute;inset:0;width:100%;height:100%;color:#ac7bc9;pointer-events:none;overflow:visible}
 :root body.home-alteracoes #segmentos .niche-map-orbit-tracks{stroke-width:.9;opacity:.18}
@@ -21,25 +21,25 @@
 :root body.home-alteracoes #segmentos .niche-map-brand::before{content:"";position:absolute;inset:-12px;border:1px solid #a675cd26;border-radius:50%;background:#ffffff30;z-index:-1;animation:niche-brand-halo 5s ease-in-out infinite}
 :root body.home-alteracoes #segmentos .niche-map-brand img{display:block;width:55%;height:55%;object-fit:contain;filter:drop-shadow(0 2px 4px #480b7010)}
 :root body.home-alteracoes #segmentos .niche-map-labels{list-style:none;margin:0;padding:0;position:absolute;inset:0}
-:root body.home-alteracoes #segmentos .niche-map-labels li{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;gap:8px;max-width:190px;width:max-content;padding:9px 13px;border:1px solid #e7d9ef;border-radius:12px;background:#fffffff0;color:#593071;font:500 clamp(12px,1.1vw,14px)/1.45 Poppins,Arial,sans-serif;letter-spacing:-.15px;text-align:center;text-wrap:balance;box-shadow:0 4px 16px #5a247309,inset 0 1px 0 #fff;z-index:2;transition:box-shadow .25s ease,border-color .25s ease,background-color .25s ease}
+:root body.home-alteracoes #segmentos .niche-map-labels li{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:flex-start;gap:8px;max-width:190px;width:max-content;padding:9px 13px;border:1px solid #e7d9ef;border-radius:12px;background:#fffffff0;color:#593071;font:500 clamp(12px,1.1vw,14px)/1.45 Poppins,Arial,sans-serif;letter-spacing:-.15px;text-align:left;text-wrap:balance;box-shadow:0 4px 16px #5a247309,inset 0 1px 0 #fff;z-index:2;transition:box-shadow .25s ease,border-color .25s ease,background-color .25s ease}
 :root body.home-alteracoes #segmentos .niche-map-labels li::before{content:"";width:4px;height:4px;border-radius:50%;background:#9a55c4;box-shadow:0 0 0 3px #f4eafa;flex-shrink:0}
 :root body.home-alteracoes #segmentos .niche-map-labels li:hover{border-color:#c99ee0;background:#fff;box-shadow:0 6px 22px #6c268314}
 @keyframes niche-orbit-turn{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @keyframes niche-brand-halo{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.055);opacity:1}}
 @media(min-width:1440px){
 :root body.home-alteracoes #segmentos.niche-map-section{padding-bottom:88px}
-:root body.home-alteracoes #segmentos .niche-map-container{margin-top:56px}
-:root body.home-alteracoes #segmentos .niche-map{max-width:1120px}
+:root body.home-alteracoes #segmentos .niche-map-container{margin-top:32px}
+:root body.home-alteracoes #segmentos .niche-map{max-width:960px}
 }
 @media(max-width:900px){
 :root body.home-alteracoes #segmentos .niche-map-container{width:calc(100% - 32px)}
-:root body.home-alteracoes #segmentos .niche-map{max-width:760px}
+:root body.home-alteracoes #segmentos .niche-map{width:92%;max-width:680px}
 :root body.home-alteracoes #segmentos .niche-map-labels li{padding:9px 11px;font-size:12px;max-width:160px;gap:7px}
 }
 @media(max-width:600px){
 :root body.home-alteracoes #segmentos.niche-map-section{padding-bottom:30px}
-:root body.home-alteracoes #segmentos .niche-map-container{margin-top:26px;width:calc(100% - 32px)}
-:root body.home-alteracoes #segmentos .niche-map{aspect-ratio:auto;height:600px;max-width:430px}
+:root body.home-alteracoes #segmentos .niche-map-container{margin-top:20px;width:calc(100% - 32px)}
+:root body.home-alteracoes #segmentos .niche-map{width:100%;aspect-ratio:auto;height:520px;max-width:430px}
 :root body.home-alteracoes #segmentos .niche-map-brand{width:70px;box-shadow:0 8px 22px #6d189926,inset 0 1px 1px #ffffff50}
 :root body.home-alteracoes #segmentos .niche-map-brand::before{inset:-7px}
 :root body.home-alteracoes #segmentos .niche-map-labels li{left:var(--mobile-x);top:var(--mobile-y);max-width:39%;padding:8px 9px;font-size:11px;gap:6px;letter-spacing:-.2px;border-radius:10px}

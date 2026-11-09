@@ -25,3 +25,11 @@
   :root body.home-alteracoes #nichos-cards .audience-copy{padding:23px}
   :root body.home-alteracoes #nichos-cards .audience-cta{margin-top:0}
 }
+
+/* CTAs secundários com contorno roxo, conforme a referência da cliente. */
+:root body.home-alteracoes #nichos-cards .audience-cta{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;gap:10px;width:fit-content;max-width:100%;min-height:48px;margin-top:auto;padding:12px 24px;border:2px solid #8312bf;border-radius:999px;background:#fff;color:#8312bf;font:500 14px/1.5 Poppins,sans-serif;text-align:center;transition:background .2s}
+:root body.home-alteracoes #nichos-cards .audience-cta svg{width:18px;height:18px;flex-shrink:0}
+:root body.home-alteracoes #nichos-cards .audience-card:hover .audience-cta{background:#f8f3fb;color:#8312bf}
+@media(min-width:601px) and (max-width:1000px){
+ :root body.home-alteracoes #nichos-cards .audience-cta{padding-inline:14px;gap:7px;font-size:13px}
+}

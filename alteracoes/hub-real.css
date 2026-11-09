@@ -1,0 +1,49 @@
+/* Capturas completas, preservadas sem recorte ou distorção. */
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-real-panel {
+  padding: 12px;
+}
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hv2-panel:not(.hub-real-panel) {
+  padding-top: 0;
+}
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-real-capture {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  border-radius: 16px;
+}
+
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 14px;
+  grid-column: 1 / -1;
+  margin-top: 25px;
+}
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-actions .button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  margin: 0;
+  padding: 12px 24px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font: 500 14px/1.5 Poppins, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-actions .button-secondary {
+  border-color: #8312bf;
+  background: #fff;
+  color: #8312bf;
+}
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-actions .button-secondary:hover {
+  background: #f8f3fb;
+}
+:root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-actions .button-secondary:focus-visible {
+  outline: 3px solid #8312bf;
+  outline-offset: 4px;
+}

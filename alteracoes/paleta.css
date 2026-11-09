@@ -1,0 +1,4 @@
+/* Roxo oficial também nos logotipos em PNG, sem editar as imagens originais. */
+:root body.home-alteracoes{--brand-purple:#8312bf;--brand-ink:#300149;--brand-lilac:#d294ef}
+:root body.home-alteracoes .brand-color-definitions{position:absolute;width:0;height:0;overflow:hidden;pointer-events:none}
+:root body.home-alteracoes img[src="assets/logo-unclik-roxo.png"]{filter:url(#unclik-brand-purple)}

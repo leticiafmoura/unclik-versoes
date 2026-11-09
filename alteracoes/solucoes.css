@@ -1,0 +1,8 @@
+/* Ações por situação, com um único link abrangendo todo o card. */
+:root body.home-alteracoes #servicos .service-card{cursor:pointer;text-decoration:none;container-type:inline-size}
+:root body.home-alteracoes #servicos .service-card h3{width:100%;max-width:none;min-height:0;font-size:clamp(12px,7.5cqw,25px);white-space:nowrap;text-wrap:nowrap}
+:root body.home-alteracoes #servicos .service-card p{font-size:15px;line-height:1.65;margin:16px 0 24px}
+:root body.home-alteracoes #servicos .service-card-cta{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;gap:10px;align-self:flex-start;width:fit-content;max-width:100%;min-height:48px;margin-top:auto;padding:12px 24px;border:2px solid #8312bf;border-radius:999px;background:#fff;color:#8312bf;font:500 14px/1.5 Poppins,sans-serif;text-align:center;text-wrap:wrap;transition:background .2s}
+:root body.home-alteracoes #servicos .service-card-cta svg{width:18px;height:18px;flex-shrink:0}
+:root body.home-alteracoes #servicos .service-card:hover .service-card-cta{background:#f8f3fb;color:#8312bf}
+:root body.home-alteracoes #servicos .service-card:focus-visible{outline:3px solid #d294ef;outline-offset:5px}

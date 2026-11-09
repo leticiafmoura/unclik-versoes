@@ -3,3 +3,16 @@
 :root body.home-revision.home-v3.home-alteracoes .button:is(.button-primary,.primary){background:var(--action-green);border-color:var(--action-green);color:#fff}
 :root body.home-revision.home-v3.home-alteracoes .button:is(.button-primary,.primary):hover:not(:disabled){background:var(--action-green-hover);border-color:var(--action-green-hover);color:#fff}
 :root body.home-revision.home-v3.home-alteracoes .button:is(.button-primary,.primary):focus-visible{outline:3px solid var(--action-focus);outline-offset:4px}
+/* O plano em destaque mantém sua ação branca sobre o card roxo. */
+:root body.home-revision.home-v3.home-alteracoes #planos .v3-plan-card.is-featured .button{background:#fff;border-color:#fff;color:#8312bf}
+:root body.home-revision.home-v3.home-alteracoes #planos .v3-plan-card.is-featured .button:hover{background:#f8f3fb;border-color:#f8f3fb;color:#8312bf}
+/* Mesma altura; o CTA secundário acompanha a largura do próprio texto. */
+:root body.home-alteracoes #inicio .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;width:100%;max-width:520px;align-items:stretch}
+:root body.home-alteracoes #inicio .hero-actions .button{box-sizing:border-box;width:100%;min-width:0;min-height:52px;padding:12px 18px;border:0;text-align:center}
+:root body.home-alteracoes #inicio .hero-actions .button-secondary{width:max-content;max-width:100%;justify-self:start;gap:10px;white-space:nowrap;padding-inline:32px;border:2px solid #8312bf;background:#fff;color:#8312bf}
+:root body.home-alteracoes #inicio .hero-actions .button-secondary svg{width:18px;height:18px;flex-shrink:0}
+:root body.home-alteracoes #inicio .hero-actions .button-secondary:hover{background:#f8f3fb;color:#8312bf}
+:root body.home-alteracoes #inicio .hero-actions .button-secondary:focus-visible{outline:3px solid #8312bf;outline-offset:4px}
+@media(max-width:600px){
+ :root body.home-alteracoes #inicio .hero-actions{grid-template-columns:minmax(0,1fr);max-width:360px}
+}

@@ -1,0 +1,43 @@
+/* Linha de etapas para diferenciar a jornada dos cards de situações e nichos. */
+:root body.home-alteracoes .section-band[data-section="como-funciona"]{--section-bg:#fff}
+:root body.home-alteracoes .section-band[data-section="como-funciona"]::before{content:"";position:absolute;left:0;right:0;top:calc(-1 * var(--wave-height) + 1px);height:var(--wave-height);background:#fff;mask:url('section-wave.svg') center/100% 100% no-repeat;pointer-events:none;z-index:1}
+:root body.home-alteracoes #como-funciona{display:block;margin-block:0;padding-block:88px 108px;background:transparent;scroll-margin-top:100px}
+:root body.home-alteracoes #como-funciona .journey-heading{display:block;width:100%;max-width:760px;margin:0 auto 30px;padding:0;text-align:center}
+:root body.home-alteracoes #como-funciona .journey-eyebrow{display:block;margin-bottom:18px;font-size:11px;font-weight:600;letter-spacing:1.7px;text-transform:uppercase;color:#8312bf}
+:root body.home-alteracoes #como-funciona h2{max-width:none;width:100%;margin:0;font-size:clamp(32px,3.3vw,44px);line-height:1.2;letter-spacing:-1.5px;color:#300149;text-wrap:balance}
+:root body.home-alteracoes #como-funciona h2 em{color:#8312bf;font-style:normal}
+:root body.home-alteracoes #como-funciona .journey-heading p{margin:20px auto 0;max-width:none;font-size:15px;line-height:1.8;color:#62566b}
+:root body.home-alteracoes #como-funciona .journey-tabs{display:none;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;width:min(100%,560px);margin:0 auto 52px;padding:6px;border:1px solid #e4d2ed;border-radius:999px;background:#f6effa}
+:root body.home-alteracoes #como-funciona.is-enhanced .journey-tabs{display:grid}
+:root body.home-alteracoes #como-funciona .journey-tabs button{padding:13px 20px;min-height:50px;border:0;border-radius:999px;background:transparent;color:#674376;font:500 13px/1.5 Poppins,sans-serif;cursor:pointer;transition:background .2s,color .2s}
+:root body.home-alteracoes #como-funciona .journey-tabs button[aria-selected=true]{background:#8312bf;color:#fff}
+:root body.home-alteracoes #como-funciona .journey-tabs button:hover:not([aria-selected=true]){background:#ead8f5;color:#300149}
+:root body.home-alteracoes #como-funciona .journey-tabs button:focus-visible,:root body.home-alteracoes #como-funciona .journey-panel:focus-visible{outline:3px solid #d294ef;outline-offset:4px}
+:root body.home-alteracoes #como-funciona .journey-panel[hidden]{display:none}
+:root body.home-alteracoes #como-funciona .journey-panel-title{font-size:24px;margin:40px 0 26px;color:#300149}
+:root body.home-alteracoes #como-funciona.is-enhanced .journey-panel-title{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+:root body.home-alteracoes #como-funciona .journey-steps{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--layout-gap);list-style:none;margin:0;padding:0}
+:root body.home-alteracoes #como-funciona .journey-steps::before{content:"";position:absolute;left:28px;right:28px;top:28px;border-top:1px dashed #d294ef;pointer-events:none}
+:root body.home-alteracoes #como-funciona .journey-steps li{position:relative;min-width:0;margin:0;padding:0 30px 0 0}
+:root body.home-alteracoes #como-funciona .journey-steps li:last-child{padding-right:0}
+:root body.home-alteracoes #como-funciona .journey-step-number{position:relative;display:grid;place-items:center;width:56px;height:56px;margin-bottom:25px;border:1px solid #d8b5eb;border-radius:50%;background:#f2e7f8;box-shadow:0 0 0 8px #fff;color:#8312bf;font-size:17px;font-weight:600}
+:root body.home-alteracoes #como-funciona .journey-steps h4{max-width:20ch;min-height:58px;margin:0 0 16px;color:#300149;font-size:22px;font-weight:600;line-height:1.35;letter-spacing:-.5px;text-wrap:balance}
+:root body.home-alteracoes #como-funciona .journey-steps p{margin:0;color:#62566b;font-size:14px;line-height:1.85}
+:root body.home-alteracoes #como-funciona .journey-action{display:flex;justify-content:center;margin-top:42px}
+:root body.home-alteracoes #como-funciona .journey-action .button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:52px;padding:14px 26px;border-radius:999px;font:500 14px/1.5 Poppins,sans-serif;text-align:center;text-decoration:none}
+:root body.home-alteracoes #como-funciona .journey-action svg{width:18px;height:18px;flex:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:760px){
+ :root body.home-alteracoes #como-funciona{padding-block:60px 76px}
+ :root body.home-alteracoes #como-funciona .journey-tabs{margin-bottom:38px;border-radius:20px}
+ :root body.home-alteracoes #como-funciona .journey-tabs button{padding:12px 10px;border-radius:14px;font-size:12px}
+ :root body.home-alteracoes #como-funciona .journey-steps{grid-template-columns:minmax(0,1fr);gap:32px}
+ :root body.home-alteracoes #como-funciona .journey-steps::before{left:24px;right:auto;top:24px;bottom:24px;border-top:0;border-left:1px dashed #d294ef}
+ :root body.home-alteracoes #como-funciona .journey-steps li{display:grid;grid-template-columns:48px minmax(0,1fr);column-gap:22px;padding:0}
+ :root body.home-alteracoes #como-funciona .journey-step-number{grid-column:1;grid-row:1 / 3;width:48px;height:48px;margin:0;font-size:15px}
+ :root body.home-alteracoes #como-funciona .journey-steps h4{grid-column:2;min-height:0;max-width:none;font-size:21px;margin-bottom:10px}
+ :root body.home-alteracoes #como-funciona .journey-steps p{grid-column:2;font-size:13px}
+ :root body.home-alteracoes #como-funciona .journey-action{margin-top:34px}
+}
+@media(prefers-reduced-motion:reduce){
+ :root body.home-alteracoes #como-funciona .journey-tabs button{transition:none}
+}

@@ -1,4 +1,4 @@
-/* Um relato principal com presença editorial, independente do carrossel. */
+/* Dois destaques editoriais; os demais relatos mantêm o carrossel original. */
 :root body.home-alteracoes #depoimentos .featured-review{position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.3fr);column-gap:clamp(32px,4vw,64px);margin:0 0 42px;padding:clamp(32px,4vw,56px) clamp(32px,4vw,56px) 0;border:1px solid #583368;border-radius:32px;background:linear-gradient(120deg,#361348,#281039);color:#fff;overflow:hidden}
 :root body.home-alteracoes #depoimentos .featured-review::before{content:"";position:absolute;width:520px;height:520px;border:1px solid #d8afe52b;border-radius:50%;left:-150px;top:40px;box-shadow:0 0 0 60px #d8afe509,0 0 0 120px #d8afe506;z-index:-1;pointer-events:none}
 :root body.home-alteracoes #depoimentos .featured-review-portrait{grid-column:1;grid-row:1 / 3;align-self:center;display:flex;align-items:flex-end;min-width:0;margin-bottom:40px;border-radius:28px;overflow:hidden;background:#a69ada}
@@ -11,6 +11,24 @@
 :root body.home-alteracoes #depoimentos .featured-review figcaption a{display:inline-block;margin-top:4px;font-size:13px;color:#d9b8e9}
 :root body.home-alteracoes #depoimentos .featured-review-carousel-bar{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:20px}
 :root body.home-alteracoes #depoimentos .featured-review-carousel-bar>span{font-size:15px;font-weight:500;color:#685473}
+:root body.home-alteracoes #depoimentos .featured-testimonials{margin-bottom:42px}
+:root body.home-alteracoes #depoimentos .featured-testimonials-viewport{display:grid;isolation:isolate;min-width:0;width:100%}
+:root body.home-alteracoes #depoimentos .featured-testimonials .featured-review{grid-area:1/1;min-width:0;width:100%;max-width:100%;margin:0;opacity:0;visibility:hidden;pointer-events:none;transform:translateX(12px);transition:opacity .55s ease,transform .55s ease,visibility 0s .55s}
+:root body.home-alteracoes #depoimentos .featured-testimonials .featured-review-copy,:root body.home-alteracoes #depoimentos .featured-testimonials figcaption{min-width:0}
+:root body.home-alteracoes #depoimentos .featured-testimonials .featured-review.is-current{opacity:1;visibility:visible;pointer-events:auto;transform:none;transition-delay:0s;z-index:1}
+:root body.home-alteracoes #depoimentos .featured-testimonials .featured-review-portrait{aspect-ratio:1/1}
+:root body.home-alteracoes #depoimentos .featured-testimonials .featured-review-portrait img{width:100%;height:100%;object-fit:cover}
+:root body.home-alteracoes #depoimentos .featured-testimonials-controls{display:flex;align-items:center;justify-content:center;padding-top:16px}
+:root body.home-alteracoes #depoimentos .featured-testimonials-controls button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:1px solid #d8c2e5;border-radius:999px;background:#fff;color:#8312bf;font:500 14px/1 Poppins,sans-serif;cursor:pointer}
+:root body.home-alteracoes #depoimentos .featured-testimonials-controls button:hover{background:#f4eaf9}
+:root body.home-alteracoes #depoimentos .featured-testimonials-controls button:focus-visible{outline:3px solid #8312bf;outline-offset:3px}
+:root body.home-alteracoes #depoimentos .featured-testimonials-dots{display:flex;align-items:center;gap:8px}
+:root body.home-alteracoes #depoimentos .featured-testimonials-dots button{position:relative;border:0;background:transparent;min-width:32px}
+:root body.home-alteracoes #depoimentos .featured-testimonials-dots button::after{content:"";width:8px;height:8px;border-radius:50%;background:#d9c6e6;transition:width .3s,background .3s}
+:root body.home-alteracoes #depoimentos .featured-testimonials-dots button[aria-current=true]::after{width:24px;border-radius:999px;background:#8312bf}
+@media(prefers-reduced-motion:reduce){
+ :root body.home-alteracoes #depoimentos .featured-testimonials .featured-review{transition:none;transform:none}
+}
 @media(max-width:760px){
  :root body.home-alteracoes #depoimentos .featured-review{grid-template-columns:minmax(0,1fr);padding:30px 26px 0;border-radius:24px;margin-bottom:30px}
  :root body.home-alteracoes #depoimentos .featured-review-copy{grid-column:1;grid-row:1;padding:0}
