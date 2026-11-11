@@ -18,6 +18,7 @@
 :root body.home-alteracoes #depoimentos .featured-testimonials .featured-review.is-current{opacity:1;visibility:visible;pointer-events:auto;transform:none;transition-delay:0s;z-index:1}
 :root body.home-alteracoes #depoimentos .featured-testimonials .featured-review-portrait{aspect-ratio:1/1}
 :root body.home-alteracoes #depoimentos .featured-testimonials .featured-review-portrait img{width:100%;height:100%;object-fit:cover}
+:root body.home-alteracoes #featured-testimonial-2 .featured-review-portrait img{object-position:center}
 :root body.home-alteracoes #depoimentos .featured-testimonials-controls{display:flex;align-items:center;justify-content:center;padding-top:16px}
 :root body.home-alteracoes #depoimentos .featured-testimonials-controls button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:1px solid #d8c2e5;border-radius:999px;background:#fff;color:#8312bf;font:500 14px/1 Poppins,sans-serif;cursor:pointer}
 :root body.home-alteracoes #depoimentos .featured-testimonials-controls button:hover{background:#f4eaf9}

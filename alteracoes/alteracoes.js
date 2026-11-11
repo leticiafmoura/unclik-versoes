@@ -65,3 +65,20 @@
     animations.clear();
   });
 })();
+// Repete a lista visual para o movimento contínuo da faixa.
+document.querySelectorAll('#parceiros .logo-carousel').forEach(carousel => {
+  const track = carousel.querySelector('.logo-track');
+  const duplicate = track.firstElementChild.cloneNode(true);
+  duplicate.setAttribute('aria-hidden', 'true');
+  duplicate.inert = true;
+  track.append(duplicate);
+
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const syncMotion = () => {
+    carousel.classList.toggle('is-animated', !motion.matches);
+    if (motion.matches) carousel.removeAttribute('tabindex');
+    else carousel.tabIndex = 0;
+  };
+  motion.addEventListener('change', syncMotion);
+  syncMotion();
+});

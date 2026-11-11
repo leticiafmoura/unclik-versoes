@@ -2,9 +2,6 @@
 :root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-real-panel {
   padding: 12px;
 }
-:root body.home-revision.home-v3 .alteracoes-v6 #hub .hv2-panel:not(.hub-real-panel) {
-  padding-top: 0;
-}
 :root body.home-revision.home-v3 .alteracoes-v6 #hub .hub-real-capture {
   display: block;
   width: 100%;
