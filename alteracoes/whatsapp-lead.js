@@ -1,7 +1,7 @@
 (() => {
   const dialog = document.querySelector('#whatsapp-lead-dialog');
   const localPreview = ['127.0.0.1', 'localhost'].includes(window.location.hostname);
-  if (!dialog || !localPreview) return;
+  if (!dialog) return;
 
   const form = dialog.querySelector('form');
   const name = form.elements.namedItem('name');
@@ -13,13 +13,25 @@
   let trigger;
   let leadId;
 
+  if (!localPreview) {
+    dialog.querySelector('#whatsapp-lead-description').textContent =
+      'Demonstração para aprovação. Use dados fictícios. Ao continuar, o WhatsApp será aberto e os dados do formulário serão descartados.';
+    [name, phone, email].forEach(field => { field.autocomplete = 'off'; });
+  }
+
+  function openWhatsApp() {
+    form.reset();
+    dialog.close();
+    window.location.assign(trigger.href);
+  }
+
   document.querySelectorAll('[data-whatsapp-lead]').forEach(link => {
     link.setAttribute('aria-haspopup', 'dialog');
     link.addEventListener('click', event => {
       if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       trigger = link;
-      leadId = crypto.randomUUID();
+      if (localPreview) leadId = crypto.randomUUID();
       status.textContent = '';
       dialog.showModal();
     });
@@ -46,6 +58,10 @@
         : 'Informe um telefone válido com DDD.'
     );
     if (!form.reportValidity()) return;
+    if (!localPreview) {
+      openWhatsApp();
+      return;
+    }
 
     close.disabled = submit.disabled = true;
     status.textContent = '';
@@ -73,8 +89,6 @@
       submit.textContent = 'Continuar no WhatsApp';
     }
 
-    form.reset();
-    dialog.close();
-    window.location.assign(trigger.href);
+    openWhatsApp();
   });
 })();
