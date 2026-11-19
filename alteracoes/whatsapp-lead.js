@@ -19,10 +19,15 @@
     [name, phone, email].forEach(field => { field.autocomplete = 'off'; });
   }
 
-  function openWhatsApp() {
+  function openWhatsApp(reservedTab) {
+    const destination = trigger.href;
     form.reset();
     dialog.close();
-    window.location.assign(trigger.href);
+    if (reservedTab && !reservedTab.closed) {
+      reservedTab.location.replace(destination);
+    } else {
+      window.open(destination, '_blank', 'noopener,noreferrer');
+    }
   }
 
   document.querySelectorAll('[data-whatsapp-lead]').forEach(link => {
@@ -63,6 +68,14 @@
       return;
     }
 
+    // Reserva a guia no gesto de envio, antes de aguardar o salvamento local.
+    const whatsappTab = window.open('about:blank', '_blank');
+    if (!whatsappTab) {
+      status.textContent = 'Permita a abertura de uma nova guia para continuar no WhatsApp.';
+      return;
+    }
+    whatsappTab.opener = null;
+
     close.disabled = submit.disabled = true;
     status.textContent = '';
     submit.textContent = 'Salvando contato…';
@@ -82,6 +95,7 @@
       const result = await response.json();
       if (result.saved !== true) throw new Error('Registro sem confirmação');
     } catch {
+      whatsappTab.close();
       status.textContent = 'Não foi possível salvar seu contato. Tente novamente.';
       return;
     } finally {
@@ -89,6 +103,6 @@
       submit.textContent = 'Continuar no WhatsApp';
     }
 
-    openWhatsApp();
+    openWhatsApp(whatsappTab);
   });
 })();
