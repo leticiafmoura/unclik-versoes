@@ -11,7 +11,7 @@
 :root body.home-alteracoes #dores-do-digital li>span{display:grid;place-items:center;flex:none;width:22px;height:22px;margin-top:2px;border:1px solid #b779d2;border-radius:50%;color:#8312bf;font:400 19px/1 Poppins,sans-serif}
 :root body.home-alteracoes #dores-do-digital li p{margin:0;color:#50375f;font-size:14px;line-height:1.8}
 :root body.home-alteracoes #dores-do-digital .digital-pains-link{display:inline-flex;align-items:center;gap:12px;max-width:100%;margin-top:26px;color:#300149;font-size:13px;font-weight:600;line-height:1.7;text-decoration:underline;text-underline-offset:5px;text-decoration-color:#b779d2}
-:root body.home-alteracoes #dores-do-digital .digital-pains-link svg{flex:none;width:18px;height:18px;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+:root body.home-alteracoes #dores-do-digital .digital-pains-link svg{flex:none;width:18px;height:18px;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 :root body.home-alteracoes #dores-do-digital .digital-pains-link:hover{color:#8312bf}
 :root body.home-alteracoes #dores-do-digital .digital-pains-link:focus-visible{outline:3px solid #8312bf;outline-offset:5px;border-radius:4px}
 @media(max-width:900px){

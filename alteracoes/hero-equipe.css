@@ -42,3 +42,7 @@
  :root body.home-alteracoes #inicio .hero-arch-caption strong{font-size:13px}
  :root body.home-alteracoes #inicio .hero-arch-caption span{max-width:95px;font-size:9px;line-height:1.4;text-wrap:balance}
 }
+@media(max-width:760px){
+ :root body.home-alteracoes #inicio .digital-hero-proof,
+ :root body.home-alteracoes #contato .v3-contact-person{flex-direction:column;align-items:flex-start;gap:14px}
+}

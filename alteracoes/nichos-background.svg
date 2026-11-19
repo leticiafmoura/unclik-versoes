@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" preserveAspectRatio="none" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" preserveAspectRatio="xMidYMid slice" fill="none">
   <defs>
     <linearGradient id="niche-background-gradient" gradientUnits="userSpaceOnUse" x1="450" y1="-160" x2="450" y2="600">
       <stop offset="0" stop-color="white" stop-opacity=".30"/>

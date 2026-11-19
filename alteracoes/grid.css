@@ -1,5 +1,5 @@
 /* Base única para as seções importadas das diferentes versões. */
-:root body.home-alteracoes{--layout-width:1240px;--layout-gutter:48px;--layout-gap:24px;--shell:var(--layout-width)}
+:root body.home-alteracoes{--layout-width:1320px;--layout-gutter:48px;--layout-gap:24px;--shell:var(--layout-width)}
 :root body.home-alteracoes :is(.section-shell,.nav-wrap,.alteracoes-v6 .container,#nichos-cards .audience-viewport,#segmentos .niche-map-container){box-sizing:border-box;width:min(var(--layout-width),calc(100% - var(--layout-gutter) * 2));max-width:var(--layout-width);margin-inline:auto;padding-inline:0}
 
 /* Três colunas de quatro módulos, sempre com o mesmo intervalo. */
@@ -30,6 +30,9 @@
 @media(max-width:760px){
  :root body.home-alteracoes{--layout-gutter:20px;--layout-gap:20px}
  :root body.home-revision.home-v3.home-alteracoes :is(.v3-metrics-grid,.services-grid,.audience-track,.v3-care-grid,.v3-more-grid,.articles-grid,.v3-plan-grid){grid-template-columns:minmax(0,1fr)}
+ :root body.home-alteracoes #numeros .v3-metrics-grid>div{grid-template-columns:minmax(0,1fr);align-items:start;gap:9px}
+ :root body.home-alteracoes #numeros .v3-metrics-grid strong{display:block}
+ :root body.home-alteracoes #numeros .v3-metrics-grid p{max-width:none}
  :root body.home-alteracoes #nichos-cards .audience-track{grid-template-columns:minmax(0,1fr)}
  :root body.home-revision.home-v3.home-alteracoes .real-review-grid>.real-review-card{flex-basis:100%}
 }

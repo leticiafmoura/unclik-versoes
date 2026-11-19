@@ -1,0 +1,20 @@
+<dialog id="whatsapp-lead-dialog" class="whatsapp-lead-dialog" aria-labelledby="whatsapp-lead-title" aria-describedby="whatsapp-lead-description">
+  <button type="button" class="whatsapp-lead-close" aria-label="Fechar formulário">×</button>
+  <h2 id="whatsapp-lead-title">Fale com a Unclik</h2>
+  <p id="whatsapp-lead-description">Deixe seu contato antes de abrir o WhatsApp. Se a conversa não começar, podemos entrar em contato pelos dados informados.</p>
+  <form action="api/whatsapp-leads" method="post">
+    <div class="v3-form-grid">
+      <label for="whatsapp-lead-name">Nome
+        <input id="whatsapp-lead-name" name="name" type="text" autocomplete="name" maxlength="120" required autofocus>
+      </label>
+      <label for="whatsapp-lead-phone">Telefone com DDD
+        <input id="whatsapp-lead-phone" name="phone" type="tel" autocomplete="tel" placeholder="(00) 00000-0000" maxlength="25" required>
+      </label>
+      <label for="whatsapp-lead-email"><span>E-mail <small>(opcional)</small></span>
+        <input id="whatsapp-lead-email" name="email" type="email" autocomplete="email" maxlength="254">
+      </label>
+    </div>
+    <button class="button button-primary whatsapp-lead-submit" type="submit">Continuar no WhatsApp</button>
+    <p class="whatsapp-lead-status" role="status"></p>
+  </form>
+</dialog>

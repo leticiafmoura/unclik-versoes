@@ -44,9 +44,19 @@ mainNav?.querySelectorAll('a').forEach((link) => {
   });
 });
 
+document.addEventListener('click', (event) => {
+  mainNav?.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => {
+    if (!dropdown.contains(event.target)) dropdown.open = false;
+  });
+});
+
 document.addEventListener('keydown', (event) => {
   if (event.key !== 'Escape') return;
-  mainNav?.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => { dropdown.open = false; });
+  mainNav?.querySelectorAll('.nav-dropdown[open]').forEach((dropdown) => {
+    const hadFocus = dropdown.contains(document.activeElement);
+    dropdown.open = false;
+    if (hadFocus) dropdown.querySelector('summary')?.focus();
+  });
   if (menuButton?.getAttribute('aria-expanded') === 'true') {
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Abrir menu');

@@ -1,0 +1,96 @@
+.plans-page .plans-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  padding-block: clamp(48px, 5vw, 76px) clamp(76px, 7vw, 112px);
+  background: #300149;
+  color: #fff;
+  text-align: center;
+}
+
+.plans-hero::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: clamp(32px, 4.5vw, 72px);
+  background: #faf7fd;
+  mask: url("../alteracoes/section-wave.svg") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+
+:root body.plans-page .plans-hero h1 {
+  max-width: none;
+  margin: 0 auto;
+  color: #fff;
+  font-size: clamp(2rem, 4.2vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+:root body.plans-page .plans-hero h1 em {
+  color: #e3b2fa;
+  font-style: normal;
+  line-height: inherit;
+  white-space: normal;
+}
+
+.plans-page .plans-hero > .section-shell > p {
+  max-width: 54ch;
+  margin: 1.5rem auto;
+  color: #e8d7f0;
+}
+
+.plans-hero-down {
+  display: inline-grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.plans-hero-down:hover {
+  background: #ffffff16;
+}
+
+.plans-hero-down:focus-visible {
+  outline: 2px solid #e3b2fa;
+  outline-offset: 4px;
+}
+
+.plans-page .v3-plans .revision-section-heading {
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.plans-page .v3-plans .revision-section-heading > p {
+  flex: none;
+  max-width: 650px;
+  margin: 0;
+}
+
+.plans-page .plans-differentials > h2 {
+  margin: 0 0 clamp(24px, 3vw, 40px);
+  text-align: left;
+}
+
+.plans-page img[src="../alteracoes/assets/logo-unclik-roxo.png"] {
+  filter: url(#unclik-brand-purple);
+}
+
+.plans-page :is(#planos, #diferenciais, #duvidas) {
+  scroll-margin-top: var(--header-height, 76px);
+}
+
+@media (min-width: 901px) {
+  :root body.plans-page #duvidas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 80px;
+  }
+
+  :root body.plans-page #duvidas .v3-faq-list { grid-column: 2; }
+}

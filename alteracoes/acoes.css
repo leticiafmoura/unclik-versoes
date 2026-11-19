@@ -13,6 +13,7 @@
 :root body.home-alteracoes #inicio .hero-actions .button-secondary svg{width:18px;height:18px;flex-shrink:0}
 :root body.home-alteracoes #inicio .hero-actions .button-secondary:hover{background:#f8f3fb;color:#8312bf}
 :root body.home-alteracoes #inicio .hero-actions .button-secondary:focus-visible{outline:3px solid #8312bf;outline-offset:4px}
-@media(max-width:600px){
- :root body.home-alteracoes #inicio .hero-actions{grid-template-columns:minmax(0,1fr);max-width:360px}
+@media(max-width:760px){
+ :root body.home-alteracoes #inicio .hero-actions{grid-template-columns:minmax(0,1fr);max-width:none}
+ :root body.home-revision.home-v3.home-alteracoes:not(.plans-page):not(.about-page) #conteudo .button{box-sizing:border-box;width:100%;max-width:100%;min-width:0;justify-content:center;align-self:stretch;text-align:center;white-space:normal}
 }

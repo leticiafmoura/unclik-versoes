@@ -10,7 +10,7 @@
 :root body.home-alteracoes #planos .plan-differentials li{display:flex;align-items:flex-start;gap:14px;min-width:0;margin:0;padding:0 20px 0 0;border-right:1px solid #d294ef40}
 :root body.home-alteracoes #planos .plan-differentials li:last-child{padding-right:0;border-right:0}
 :root body.home-alteracoes #planos .plan-differential-icon{display:grid;place-items:center;flex:none;width:32px;height:32px;border-radius:50%;background:#d294ef22;color:#d294ef}
-:root body.home-alteracoes #planos .plan-differential-icon svg{width:21px;height:21px;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+:root body.home-alteracoes #planos .plan-differential-icon svg{width:21px;height:21px;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 :root body.home-alteracoes #planos .plan-differentials strong{display:block;color:#fff;font-size:clamp(18px,1.65vw,23px);font-weight:600;line-height:1.35;letter-spacing:-.5px}
 :root body.home-alteracoes #planos .plan-differentials li>div>span{display:block;margin-top:8px;color:#e6d6ee;font-size:12px;line-height:1.7}
 :root body.home-alteracoes #planos .v3-plan-conditions{width:100%;max-width:600px;margin-inline:auto}

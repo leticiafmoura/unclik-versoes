@@ -25,7 +25,7 @@
 :root body.home-alteracoes #como-funciona .journey-steps p{margin:0;color:#62566b;font-size:14px;line-height:1.85}
 :root body.home-alteracoes #como-funciona .journey-action{display:flex;justify-content:center;margin-top:42px}
 :root body.home-alteracoes #como-funciona .journey-action .button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:52px;padding:14px 26px;border-radius:999px;font:500 14px/1.5 Poppins,sans-serif;text-align:center;text-decoration:none}
-:root body.home-alteracoes #como-funciona .journey-action svg{width:18px;height:18px;flex:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+:root body.home-alteracoes #como-funciona .journey-action svg{width:18px;height:18px;flex:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 @media(max-width:760px){
  :root body.home-alteracoes #como-funciona{padding-block:60px 76px}
  :root body.home-alteracoes #como-funciona .journey-tabs{margin-bottom:38px;border-radius:20px}

@@ -167,7 +167,7 @@
 .home-v3 .v3-bento-card h3{font-size:29px;letter-spacing:-.6px;line-height:1.25;margin:0 0 16px}
 .v3-bento-card p{font-size:14px;line-height:1.8;margin:0 0 24px;max-width:420px}
 .v3-bento-card .button{font-size:13px;min-height:46px;gap:22px;text-align:left;position:relative;z-index:1}
-.v3-bento-card .button::after{content:'↗';font-size:20px;line-height:1}
+.v3-bento-card .button::after{content:"";flex-shrink:0;width:7px;height:7px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg)}
 .v3-bento-blog{grid-row:span 2;background:#f2e8f8;display:flex;flex-direction:column;align-items:flex-start;padding-bottom:0}
 .home-v3 .v3-bento-blog h3{font-size:38px}
 .v3-blog-preview{width:100%;margin-top:36px;background:#fff;border:1px solid #dac4e6;border-bottom:0;border-radius:18px 18px 0 0;box-shadow:0 14px 35px #3001490b;flex:1;min-height:240px;overflow:hidden}
@@ -223,7 +223,7 @@
 .home-v3 .v3-content-resources>div:first-child h3{color:#fff}
 .home-v3 .v3-content-resources>div:first-child p{color:#e6d9ed}
 .v3-content-resources .button{grid-column:1/-1;justify-self:start;align-self:end;margin-top:8px;text-align:left;gap:22px}
-.v3-content-resources .button::after{content:'↗';font-size:20px;line-height:1}
+.v3-content-resources .button::after{content:"";flex-shrink:0;width:7px;height:7px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg)}
 .home-v3 .v3-content-resources>div:first-child .button{color:#fff}
 .home-v3 .v3-content-resources>div:first-child .button:hover{background:#ffffff12}
 .home-v3 .partners-grid-section{margin-block:0 80px;padding-top:20px}
@@ -246,7 +246,7 @@
 .v3-faq-item p{font-size:14px;line-height:1.9;margin:0}
 
 .v3-contact{background:#300149;position:relative;isolation:isolate;overflow:hidden;padding-block:84px}
-.v3-contact::before{content:"";position:absolute;z-index:-1;left:-260px;bottom:-450px;width:800px;height:800px;border:1px solid #6a3a7b;border-radius:50%;box-shadow:0 0 0 75px #ffffff04,0 0 0 150px #ffffff03}
+.v3-contact::before,.plans-hero::before{content:"";position:absolute;z-index:-1;left:-260px;bottom:-450px;width:800px;height:800px;border:1px solid #6a3a7b;border-radius:50%;box-shadow:0 0 0 75px #ffffff04,0 0 0 150px #ffffff03;pointer-events:none}
 .v3-contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:start}
 .v3-contact-copy{padding-top:30px}
 .home-v3 .v3-contact-copy .mini-label{color:#d5a6ec}
